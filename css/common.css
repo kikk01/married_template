@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Pinyon";
+    src: url("../police/Pinyon_Script/PinyonScript-Regular.ttf")
+}
+
+@media (max-width: 400px) {
+  .head-image {
+      background-image: url(../image/married-mobile.jpg);
+  }
+}
+
+@media (min-width: 400px) {
+  .head-image {
+      background-image: url(../image/married-portrait.jpg);
+  }
+}
+
+@media (min-aspect-ratio: 2/3) {
+  .head-image {
+      background-image: url(../image/married-carre-2000.jpg);
+  }
+}
+
+@media (min-aspect-ratio: 3/2) {
+    .head-image {
+        background-image: url(../image/married.jpg);
+    }
+}
+
+body {
+    font-family: Pinyon;
+    margin: 0;
+    font-size: 40px;
+    max-width: 2000px;
+    margin: auto;
+}
+
+header {
+    overflow: hidden;
+}
+
+.head-image {
+    width: calc(100vw - 15px);
+    height: 100%;
+    background-size: cover;
+}
+
+.container {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    max-width: 1256px;
+}
+
+h1 {
+    font-size: 75px;
+    background-color: #FDD64B;
+    background-image: linear-gradient(45deg, #FDD64B, #9F7203);
+    background-image: conic-gradient(45deg, #FDD64B, #9F7203);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    text-align: center;
+    margin-top: 100px;
+}
+
+p {
+    color: rgb(90, 89, 68);
+    text-align: justify;
+}
+
+.custom-button-container {
+    position: relative;
+    text-align: center;
+    width: 697px;
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    font-size: 40px;
+  }
+  
+.custom-button-container:hover {
+    font-size: 41px;
+    cursor: pointer;
+}
+
+.custom-button-container:hover img {
+    width: 700px;
+}
+
+.text-block {
+    position: absolute;
+    font-weight: 600;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
