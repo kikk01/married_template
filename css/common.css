@@ -3,30 +3,6 @@
     src: url("../police/Pinyon_Script/PinyonScript-Regular.ttf")
 }
 
-@media (max-width: 400px) {
-  .head-image {
-      background-image: url(../image/married-mobile.jpg);
-  }
-}
-
-@media (min-width: 400px) {
-  .head-image {
-      background-image: url(../image/married-portrait.jpg);
-  }
-}
-
-@media (min-aspect-ratio: 2/3) {
-  .head-image {
-      background-image: url(../image/married-carre-2000.jpg);
-  }
-}
-
-@media (min-aspect-ratio: 3/2) {
-    .head-image {
-        background-image: url(../image/married.jpg);
-    }
-}
-
 body {
     font-family: Pinyon;
     margin: 0;
