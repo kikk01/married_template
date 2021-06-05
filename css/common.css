@@ -39,12 +39,6 @@ header {
     overflow: hidden;
 }
 
-.head-image {
-    width: calc(100vw - 15px);
-    height: 100%;
-    background-size: cover;
-}
-
 .container {
     width: 75%;
     margin-left: auto;
