@@ -11,8 +11,8 @@ body {
     margin: auto;
 }
 
-header {
-    overflow: hidden;
+.head-image {
+    width: 100%;
 }
 
 .container {

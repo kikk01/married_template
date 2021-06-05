@@ -11,12 +11,6 @@
   }
 }
 
-@media (max-width: 768px) {
-  .head-image {
-    width: calc(100vw - 15px);
-  }
-}
-
 @media (min-aspect-ratio: 2/3) {
   .head-image {
       background-image: url(../image/married-carre-2000.jpg);
@@ -35,7 +29,6 @@ header {
 }
 
 .head-image {
-  width: 100vw - 15px;
   height: 100%;
   background-size: cover;
 }
